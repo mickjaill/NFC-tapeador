@@ -21,7 +21,7 @@ export function Storefront(){
     <p className="kicker">TAPEADOR / NFC TECHNOLOGY</p>
     <h1>TOCA.<br/><em>CONECTA.</em></h1>
     <p className="lead">Transformamos objetos físicos en experiencias digitales con tecnología NFC. Sin aplicaciones. Sin complicaciones.</p>
-    <div className="heroActions"><a href="#productos" className="cta">DESCUBRIR PRODUCTOS <span>↗</span></a><a href="#tecnologia" className="textLink">CÓMO FUNCIONA →</a></div>
+    <div className="heroActions"><a href="#club" className="cta">HAZTE SOCIO <span>↗</span></a><a href="#tecnologia" className="textLink">CÓMO FUNCIONA →</a></div>
    </div>
    <a className="signal signalLink" href="#catalogo-llaveros" aria-label="Abrir catálogo NFC"><div className="chip"><b>NFC</b><span>ACTIVE</span></div><i/><i/><i/><small>ABRIR CATÁLOGO ↘</small></a>
    <div className="scrollTag">SCROLL TO EXPLORE <span>↓</span></div>
