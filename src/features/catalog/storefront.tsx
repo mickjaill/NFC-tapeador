@@ -31,10 +31,10 @@ export function Storefront(){
   <section className="keyCatalog" id="catalogo-llaveros">
    <div className="catalogIntro"><p className="kicker">CATÁLOGO / NFC ACTIVE</p><h2>ELIGE TU<br/><span>FORMATO.</span></h2><p>Productos físicos Tapeador preparados para conectar contenido, contacto, menús, redes o experiencias digitales mediante NFC y QR.</p></div>
    <div className="catalogTypes">
-    <article><div className="catalogIcon">01</div><small>EMPRESAS</small><h3>Llaveros<br/>empresariales</h3><p>Identidad de marca, contacto, redes, catálogos o soluciones personalizadas para equipos y clientes.</p><a href="#productos">VER OPCIONES →</a></article>
-    <article><div className="catalogIcon">02</div><small>RESISTENCIA</small><h3>Llaveros<br/>Paracord</h3><p>Formato resistente y práctico con tecnología NFC integrada para uso diario.</p><a href="#productos">VER OPCIONES →</a></article>
-    <article><div className="catalogIcon">03</div><small>PERSONALIZACIÓN</small><h3>Llaveros<br/>3D</h3><p>Diseños personalizados impresos en 3D con NFC integrado: personajes, logos, nombres y formas especiales.</p><a href="#productos">VER OPCIONES →</a></article>
-    <article><div className="catalogIcon qrIcon">QR</div><small>NEGOCIOS / MESAS</small><h3>Servilleteros<br/>NFC + QR</h3><p>Acceso rápido a cartas, promociones, redes o información desde la mesa, tocando o escaneando.</p><a href="#productos">VER OPCIONES →</a></article>
+    <article><div className="productIcon businessIcon"><span className="ringIcon"/><span className="tagIcon"><b>T</b><i>)))</i></span></div><small>EMPRESAS</small><h3>Llaveros<br/>empresariales</h3><p>Identidad de marca, contacto, redes, catálogos o soluciones personalizadas para equipos y clientes.</p><a href="#productos">VER OPCIONES →</a></article>
+    <article><div className="productIcon cordIcon"><span className="ringIcon"/><span className="cordBody"><i/><i/><i/><b>NFC</b></span></div><small>RESISTENCIA</small><h3>Llaveros<br/>Paracord</h3><p>Formato resistente y práctico con tecnología NFC integrada para uso diario.</p><a href="#productos">VER OPCIONES →</a></article>
+    <article><div className="productIcon printIcon"><span className="ringIcon"/><span className="printBody"><b>T</b><i>)))</i></span></div><small>PERSONALIZACIÓN</small><h3>Llaveros<br/>3D</h3><p>Diseños personalizados impresos en 3D con NFC integrado: personajes, logos, nombres y formas especiales.</p><a href="#productos">VER OPCIONES →</a></article>
+    <article><div className="productIcon tableIcon"><span className="napkin"/><span className="tableBody"><b>)))</b><i>▦</i></span></div><small>NEGOCIOS / MESAS</small><h3>Servilleteros<br/>NFC + QR</h3><p>Acceso rápido a cartas, promociones, redes o información desde la mesa, tocando o escaneando.</p><a href="#productos">VER OPCIONES →</a></article>
    </div>
   </section>
   <section className="manifesto" id="tecnologia">
