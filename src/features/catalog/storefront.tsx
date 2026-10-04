@@ -11,7 +11,7 @@ export function Storefront(){
  return <main>
   <header className="nav">
    <a className="brand" href="#"><span className="mark">T</span>TAPEADOR</a>
-   <nav className="desktopNav"><a href="#productos">Productos</a><a href="#tecnologia">Tecnología</a><a href="#soluciones">Soluciones</a></nav>
+   <nav className="desktopNav"><a href="#productos">Productos</a><a href="#tecnologia">Tecnología</a><a href="#club">Hazte socio</a><a href="#soluciones">Soluciones</a></nav>
    <button className="cartButton" onClick={()=>setOpen(true)}>CARRITO <b>{cart.count}</b></button>
   </header>
 
@@ -57,6 +57,12 @@ export function Storefront(){
    <div className="performanceCopy"><p className="kicker">03 / TAPEADOR SYSTEM</p><h2>UNA IDEA.<br/>INFINITAS<br/><span>POSIBILIDADES.</span></h2><p>Desde un contacto de emergencia hasta una experiencia de marca. El mismo gesto —acercar el celular— puede activar exactamente lo que necesitas.</p><a href="#productos" className="cta light">VER SOLUCIONES <span>↗</span></a></div>
   </section>
 
+
+  <section className="clubSection" id="club">
+   <div className="clubTop"><div><p className="kicker">04 / CLUB TAPEADOR</p><h2>HAZTE<br/><span>SOCIO.</span></h2></div><div className="pointsHero"><b>+1000</b><span>PUNTOS POR CADA COMPRA</span></div></div>
+   <div className="clubGrid"><div className="clubBenefits"><p>Compra, acumula y canjea. Tus puntos Tapeador convierten cada compra en una recompensa.</p><div className="rewardProgress"><div className="rewardNumbers"><b>20,000</b><span>PUNTOS</span></div><div className="progressTrack"><i/></div><strong>LLAVERO TAPEADOR GRATIS</strong></div><div className="clubSteps"><span><b>01</b> REGÍSTRATE</span><span><b>02</b> COMPRA</span><span><b>03</b> SUMA PUNTOS</span><span><b>04</b> CANJEA</span></div></div>
+   <form className="clubForm" onSubmit={(e)=>e.preventDefault()}><div><small>REGISTRO / CLUB TAPEADOR</small><h3>ÚNETE AL CLUB</h3></div><label>NOMBRE COMPLETO<input name="name" type="text" placeholder="Tu nombre" required minLength={2}/></label><label>NÚMERO DE CELULAR<input name="phone" type="tel" placeholder="+51 999 999 999" required/></label><label>FECHA DE NACIMIENTO<input name="birthDate" type="date" required/></label><label className="consent"><input type="checkbox" name="promoConsent"/><span>Acepto recibir promociones y beneficios de Tapeador, incluyendo ofertas por mi cumpleaños.</span></label><button className="cta clubJoin" type="submit">QUIERO SER SOCIO <span>↗</span></button><p className="privacyNote">Tus datos se usarán para gestionar tu membresía, puntos y promociones autorizadas.</p></form></div>
+  </section>
   <section className="ticker"><div>TAPEADOR NFC — TOCA / CONECTA / COMPARTE — TAPEADOR NFC — TOCA / CONECTA / COMPARTE — </div></section>
   <footer><a className="brand" href="#"><span className="mark">T</span>TAPEADOR</a><p>TECNOLOGÍA NFC PARA EL MUNDO REAL.</p><small>© 2026 TAPEADOR</small></footer>
 
